@@ -407,7 +407,7 @@ have noticed above that this top value is **not** included in the range itself.
 This is similar to how slicing works in lists.
 
 ```py
-for n in range(4):
+for n in range(0,4):
     print(n)
 
 # => 0
